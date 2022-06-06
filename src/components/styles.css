@@ -1,0 +1,24 @@
+.locationList {
+    height: 85vh;
+    overflow: auto;
+}
+
+@media (max-width: 64em) {
+    .locationList {
+        max-height: 40vh;
+        margin-bottom: 20px;
+    }
+}
+
+.forecast-title {
+    color: black;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.country {
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
